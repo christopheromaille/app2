@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Bmw" Title="Bmw">
+    <ContentPage.Content>
+        <StackLayout>
+            <!--making a iamge and text to go on the page using <image> and <label> -->
+            <Image Source="Bmw.jpg" HeightRequest="300" WidthRequest="300"/>
+            <Label Text="Welcome to Bmw " FontSize="Large" FontFamily="TimesNewRoman" TextColor="Black" />
+
+            <Label Text=" " FontSize="Medium" FontFamily="TimesNewRoman" TextColor="White" />
+
+            <Label Text="Founded in " FontSize="Medium" FontFamily="TimesNewRoman" TextColor="Red" />
+            <Label Text="7 March 1916 " FontSize="Medium" FontFamily="TimesNewRoman" TextColor="Black" />
+
+            <Label Text=" " FontSize="Medium" FontFamily="TimesNewRoman" TextColor="White" />
+
+
+            <Label Text="Founders " FontSize="Medium" FontFamily="TimesNewRoman" TextColor="Red" />
+            <Label Text="Franz Josef Popp And Karl Rapp " FontSize="Medium" FontFamily="TimesNewRoman" TextColor="Black" />
+
+            <Label Text=" " FontSize="Medium" FontFamily="TimesNewRoman" TextColor="White" />
+
+
+            <Label Text="Headquarters " FontSize="Medium" FontFamily="TimesNewRoman" TextColor="Red" />
+            <Label Text="Munich, Bavaria, Germany" FontSize="Medium" FontFamily="TimesNewRoman" TextColor="Black" />
+
+            <Label Text=" " FontSize="Medium" FontFamily="TimesNewRoman" TextColor="White" />
+
+
+            <Label Text="Owns " FontSize="Medium" FontFamily="TimesNewRoman" TextColor="Red" />
+            <Label Text="Mini and Rolls-Royce " FontSize="Medium" FontFamily="TimesNewRoman" TextColor="Black" />
+
+            <Label Text=" " FontSize="Medium" FontFamily="TimesNewRoman" TextColor="White" />
+
+
+            <Label Text="Slogan " FontSize="Medium" FontFamily="TimesNewRoman" TextColor="Red" />
+            <Label Text="Sheer Driving Pleasure" FontSize="Medium" FontFamily="TimesNewRoman" TextColor="Black" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

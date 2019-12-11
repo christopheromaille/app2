@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Start" BackgroundColor="Black">
+    <ContentPage.Content>
+        <StackLayout>
+            <!--making a iamge and text to go on the page using <image> and <label>-->
+            <Label Text="welcome to the car brands info app for kids" FontSize="Large" FontFamily="TimesNewRoman" TextColor="White" HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="CenterAndExpand"/>
+            
+            <Image Source="cars parked.jpg" HorizontalOptions="Center" VerticalOptions="Center"
+                   WidthRequest="600"
+                   HeightRequest="450"></Image>
+            <!--adding a button to the start page-->
+                <Button BorderRadius="20" Text="Start"
+                   FontSize="Large" TextColor="Navy" BackgroundColor="White"
+                   HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="CenterAndExpand"
+                   Clicked="button_ClickedStart"></Button>
+            
+            <Label Text="the purpose of this app is to get information about cars" FontSize="Medium" FontFamily="TimesNewRoman" TextColor="White" HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="CenterAndExpand"></Label>
+
+            
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

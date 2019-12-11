@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:App2"
+            x:Class="App2.MainPage">
+
+        <!--making tabs -->
+        <local:Audi> </local:Audi>
+        <local:Bmw></local:Bmw>
+        <local:Ford></local:Ford>
+        <local:Hyundai></local:Hyundai>
+        <local:Jaguar></local:Jaguar>
+        <local:Quiz></local:Quiz>
+
+</TabbedPage>

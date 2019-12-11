@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Audi" Title="Audi">
+    <ContentPage.Content>
+        <StackLayout>
+            <!--making a iamge and text to go on the page using <image> and <label> -->
+            <Image Source="Audi.jpg" HeightRequest="300" WidthRequest="300"/>
+            <Label Text="Welcome to Audi " FontSize="Large" FontFamily="TimesNewRoman" TextColor="Black" />
+
+            <Label Text=" " FontSize="Medium" FontFamily="TimesNewRoman" TextColor="White" />
+
+            <Label Text="Founded in " FontSize="Medium" FontFamily="TimesNewRoman" TextColor="Red" />
+            <Label Text="	July 16, 1909 " FontSize="Medium" FontFamily="TimesNewRoman" TextColor="Black" />
+
+            <Label Text=" " FontSize="Medium" FontFamily="TimesNewRoman" TextColor="White" />
+
+
+            <Label Text="Founder " FontSize="Medium" FontFamily="TimesNewRoman" TextColor="Red" />
+            <Label Text="August Horch " FontSize="Medium" FontFamily="TimesNewRoman" TextColor="Black" />
+
+            <Label Text=" " FontSize="Medium" FontFamily="TimesNewRoman" TextColor="White" />
+
+
+            <Label Text="Headquarters " FontSize="Medium" FontFamily="TimesNewRoman" TextColor="Red" />
+            <Label Text="Ingolstadt, Germany" FontSize="Medium" FontFamily="TimesNewRoman" TextColor="Black" />
+
+            <Label Text=" " FontSize="Medium" FontFamily="TimesNewRoman" TextColor="White" />
+
+
+            <Label Text="Owner " FontSize="Medium" FontFamily="TimesNewRoman" TextColor="Red" />
+            <Label Text="Volkswagen" FontSize="Medium" FontFamily="TimesNewRoman" TextColor="Black" />
+
+            <Label Text=" " FontSize="Medium" FontFamily="TimesNewRoman" TextColor="White" />
+
+
+            <Label Text="Slogan " FontSize="Medium" FontFamily="TimesNewRoman" TextColor="Red" />
+            <Label Text="Vorsprung durch Technik" FontSize="Medium" FontFamily="TimesNewRoman" TextColor="Black" />
+
+
+
+
+
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

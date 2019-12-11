@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+    <!--using carouselPage to make the page look nice for the user-->
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Quiz" Title="Quiz">
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout>
+                <Label Text="Quiz"
+            VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+                <Label Text="Question 1" VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" FontSize="Large"/>
+
+                <Label Text=" What car was founded July 16th 1909?" VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" FontSize="Large"/>
+
+                <ImageButton Source = "Audi.jpg"
+                         ClassId="audi"
+                         VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                         WidthRequest="200"
+                         HeightRequest="100"
+                         Clicked="ButtonClicked"/>
+
+                <ImageButton Source = "Bmw.jpg"
+                         ClassId="bmw"
+                         VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                         WidthRequest="200"
+                         HeightRequest="100"
+                         Clicked="ButtonClicked"/>
+
+                <ImageButton Source = "Hyundai.jpg"
+                         ClassId="hyundai"
+                         VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                         WidthRequest="200"
+                         HeightRequest="100"
+                         Clicked="ButtonClicked"/>
+
+
+                <ImageButton Source = "Ford.jpg"
+                         ClassId="ford"
+                         VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                         WidthRequest="200"
+                         HeightRequest="100"
+                         Clicked="ButtonClicked"/>
+
+                <ImageButton Source = "Jaguar.jpg"
+                         ClassId="jaguar"
+                         VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                         WidthRequest="200"
+                         HeightRequest="100"
+                         Clicked="ButtonClicked"/>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+    
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout>
+                <Label Text="Question 2" VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" FontSize="Large"/>
+
+            <Label Text=" What brand did Henry Ford own?" VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" FontSize="Large"/>
+
+            <ImageButton Source = "Audi.jpg"
+                         ClassId="audi"
+                         VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                         WidthRequest="200"
+                         HeightRequest="100"
+                         Clicked="ButtonClicked2"/>
+
+            <ImageButton Source = "Bmw.jpg"
+                         ClassId="bmw"
+                         VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                         WidthRequest="200"
+                         HeightRequest="100"
+                         Clicked="ButtonClicked2"/>
+
+            <ImageButton Source = "Hyundai.jpg"
+                         ClassId="hyundai"
+                         VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                         WidthRequest="200"
+                         HeightRequest="100"
+                         Clicked="ButtonClicked2"/>
+
+            <ImageButton Source = "Ford.jpg"
+                         ClassId="ford"
+                         VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                         WidthRequest="200"
+                         HeightRequest="100"
+                         Clicked="ButtonClicked2"/>
+
+            <ImageButton Source = "Jaguar.jpg"
+                         ClassId="jaguar"
+                         VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                         WidthRequest="200"
+                         HeightRequest="100"
+                         Clicked="ButtonClicked2"/>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout>
+                <Label Text="Question 3" VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" FontSize="Large"/>
+
+            <Label Text=" who owns Mini?" VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" FontSize="Large"/>
+
+            <ImageButton Source = "Audi.jpg"
+                         ClassId="audi"
+                         VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                         WidthRequest="200"
+                         HeightRequest="100"
+                         Clicked="ButtonClicked3"/>
+
+            <ImageButton Source = "Bmw.jpg"
+                         ClassId="bmw"
+                         VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                         WidthRequest="200"
+                         HeightRequest="100"
+                         Clicked="ButtonClicked3"/>
+
+            <ImageButton Source = "Hyundai.jpg"
+                         ClassId="hyundai"
+                         VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                         WidthRequest="200"
+                         HeightRequest="100"
+                         Clicked="ButtonClicked3"/>
+
+            <ImageButton Source = "Ford.jpg"
+                         ClassId="ford"
+                         VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                         WidthRequest="200"
+                         HeightRequest="100"
+                         Clicked="ButtonClicked3"/>
+
+            <ImageButton Source = "Jaguar.jpg"
+                         ClassId="jaguar"
+                         VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                         WidthRequest="200"
+                         HeightRequest="100"
+                         Clicked="ButtonClicked3"/>
+    </StackLayout>
+    </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout>
+                <Label Text="Question 4" VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" FontSize="Large"/>
+            <Label Text=" whos headquarters is in seoul south korea?" VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" FontSize="Large"/>
+
+            <ImageButton Source = "Audi.jpg"
+                         ClassId="audi"
+                         VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                         WidthRequest="200"
+                         HeightRequest="100"
+                         Clicked="ButtonClicked4"/>
+
+            <ImageButton Source = "Bmw.jpg"
+                         ClassId="bmw"
+                         VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                         WidthRequest="200"
+                         HeightRequest="100"
+                         Clicked="ButtonClicked4"/>
+
+            <ImageButton Source = "Hyundai.jpg"
+                         ClassId="hyundai"
+                         VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                         WidthRequest="200"
+                         HeightRequest="100"
+                         Clicked="ButtonClicked4"/>
+
+            <ImageButton Source = "Ford.jpg"
+                         ClassId="ford"
+                         VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                         WidthRequest="200"
+                         HeightRequest="100"
+                         Clicked="ButtonClicked4"/>
+
+            <ImageButton Source = "Jaguar.jpg"
+                         ClassId="jaguar"
+                         VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                         WidthRequest="200"
+                         HeightRequest="100"
+                         Clicked="ButtonClicked4"/>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+    
+    <ContentPage>
+                    <ContentPage.Content>
+                        <StackLayout>
+                            <Label Text="Question 5" VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" FontSize="Large"/>
+
+            <Label Text=" whos slogan is How alive are you?" VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" FontSize="Large"/>
+
+            <ImageButton Source = "Audi.jpg"
+                         ClassId="audi"
+                         VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                         WidthRequest="200"
+                         HeightRequest="100"
+                         Clicked="ButtonClicked5"/>
+
+            <ImageButton Source = "Bmw.jpg"
+                         ClassId="bmw"
+                         VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                         WidthRequest="200"
+                         HeightRequest="100"
+                         Clicked="ButtonClicked5"/>
+
+            <ImageButton Source = "Hyundai.jpg"
+                         ClassId="hyundai"
+                         VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                         WidthRequest="200"
+                         HeightRequest="100"
+                         Clicked="ButtonClicked5"/>
+
+            <ImageButton Source = "Ford.jpg"
+                         ClassId="ford"
+                         VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                         WidthRequest="200"
+                         HeightRequest="100"
+                         Clicked="ButtonClicked5"/>
+
+            <ImageButton Source = "Jaguar.jpg"
+                         ClassId="jaguar"
+                         VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                         WidthRequest="200"
+                         HeightRequest="100"
+                         Clicked="ButtonClicked5"/>
+            </StackLayout>
+        </ContentPage.Content>
+        
+    </ContentPage>
+</CarouselPage>
